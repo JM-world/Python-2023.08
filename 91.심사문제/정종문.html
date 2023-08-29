@@ -14770,7 +14770,7 @@ integrate systems more effectively.
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14782,12 +14782,7 @@ integrate systems more effectively.
 <span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
 <span class="n">balance</span> <span class="o">=</span> <span class="mi">9000</span>    <span class="c1"># 교통카드 잔액</span>
 <span class="c1">#---------시험 답----------</span>
-<span class="k">if</span> <span class="mi">7</span> <span class="o">&lt;=</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">12</span><span class="p">:</span>
-    <span class="n">balance</span> <span class="o">-=</span> <span class="mi">650</span>
-<span class="k">elif</span> <span class="mi">13</span> <span class="o">&lt;=</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">18</span><span class="p">:</span>
-    <span class="n">balance</span> <span class="o">-=</span> <span class="mi">1050</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="n">balance</span> <span class="o">-=</span> <span class="mi">1250</span>
+<span class="n">balance</span> <span class="o">-=</span> <span class="p">(</span><span class="mi">650</span> <span class="k">if</span> <span class="mi">7</span> <span class="o">&lt;=</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">12</span> <span class="k">else</span> <span class="mi">1050</span> <span class="k">if</span> <span class="mi">13</span> <span class="o">&lt;=</span> <span class="n">age</span> <span class="o">&lt;=</span> <span class="mi">18</span> <span class="k">else</span> <span class="mi">1250</span><span class="p">)</span>
 <span class="c1">#--------------------------</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">balance</span><span class="p">)</span>
 </pre></div>
@@ -14795,6 +14790,29 @@ integrate systems more effectively.
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>8350
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
