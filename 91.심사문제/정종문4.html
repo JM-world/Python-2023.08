@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>정종문3</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>정종문4</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14581,413 +14581,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u17</span>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
-<span class="k">while</span> <span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">1350</span> <span class="p">:</span>
-    <span class="n">a</span> <span class="o">-=</span> <span class="mi">1350</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>8650
-7300
-5950
-4600
-3250
-1900
-550
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u18</span>
-<span class="n">start</span> <span class="p">,</span> <span class="n">stop</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
-
-<span class="n">i</span> <span class="o">=</span> <span class="n">start</span>
-
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="s1">'3'</span> <span class="o">==</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
-        <span class="k">continue</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="n">stop</span><span class="p">:</span>
-        <span class="k">break</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">' '</span><span class="p">)</span>
-    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>1 2 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19 20 </pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u19</span>
-
-<span class="n">a</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
-<span class="n">b</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">a</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">((</span><span class="s1">' '</span> <span class="o">*</span> <span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">i</span><span class="p">))</span><span class="o">+</span> <span class="s1">'*'</span> <span class="o">*</span> <span class="n">b</span> <span class="p">)</span>
-    <span class="n">b</span> <span class="o">+=</span> <span class="mi">2</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>  *
- ***
-*****
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u23</span>
-<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
-
-<span class="n">mines</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-    <span class="n">mines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">input</span><span class="p">()))</span>
-
-
-<span class="n">pad_mines</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">'.'</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">a</span><span class="o">+</span><span class="mi">2</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">b</span><span class="o">+</span><span class="mi">2</span><span class="p">)]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-        <span class="n">pad_mines</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">mines</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
-
-<span class="k">for</span> <span class="n">q</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">a</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>        <span class="c1"># 1, 2, 3</span>
-    <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">b</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-            <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
-            <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="p">][</span><span class="n">w</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'.'</span><span class="p">:</span>
-                <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">w</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-                    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">w</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-                    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-                    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="p">][</span><span class="n">w</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-                    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="p">][</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-                    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">w</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-                    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">w</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-                    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="k">if</span> <span class="n">pad_mines</span><span class="p">[</span><span class="n">q</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">w</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'*'</span><span class="p">:</span>
-                    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="n">mines</span><span class="p">[</span><span class="n">q</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">w</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">count</span>
-<span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">mines</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">row</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">elem</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>01*21
-123*1
-2*532
-3***1
-*4*31
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u 24-5</span>
-<span class="kn">import</span> <span class="nn">string</span>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">)</span>
-<span class="n">list1</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">b</span><span class="p">:</span>
-    <span class="n">list1</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">punctuation</span><span class="p">))</span>
-
-<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">list1</span><span class="p">:</span>
-    <span class="k">if</span> <span class="s1">'the'</span> <span class="o">==</span> <span class="n">i</span><span class="p">:</span>
-        <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>6
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u24-6</span>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">';'</span><span class="p">)</span>
-<span class="n">c</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
-<span class="n">c</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">c</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">c</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="s1">',d'</span><span class="p">)</span><span class="o">.</span><span class="n">rjust</span><span class="p">(</span><span class="mi">9</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>1,304,000
-  367,500
-  250,000
-  158,000
-  128,500
-   83,000
-   59,200
-   51,900
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u25</span>
-<span class="n">keys</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
-<span class="n">values</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
- 
-<span class="n">x</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">values</span><span class="p">))</span>
-
-<span class="nb">str</span> <span class="o">=</span> <span class="s1">''</span>
-<span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">x</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="k">if</span> <span class="n">v</span> <span class="o">==</span> <span class="mi">30</span><span class="p">:</span>
-        <span class="nb">str</span> <span class="o">=</span> <span class="n">k</span>
-
-<span class="n">x</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
-<span class="n">x</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">'delta'</span><span class="p">)</span>
-
-
-
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;alpha&#39;: 10, &#39;bravo&#39;: 20}
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u26</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u29</span>
 <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
-<span class="n">num</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">a</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
-<span class="n">b</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">num</span> <span class="o">&gt;</span> <span class="n">x</span> <span class="ow">or</span> <span class="n">num</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">:</span>
-        <span class="k">break</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="n">a</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">y</span> <span class="o">%</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="n">b</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
-    <span class="n">num</span> <span class="o">+=</span> <span class="mi">1</span>
 
-<span class="n">divisor</span> <span class="o">=</span> <span class="n">a</span> <span class="o">&amp;</span> <span class="n">b</span>
- 
-<span class="n">result</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">divisor</span><span class="p">)</span> <span class="o">==</span> <span class="nb">set</span><span class="p">:</span>
-    <span class="n">result</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">divisor</span><span class="p">)</span>
- 
-<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">calc</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">,</span> <span class="nb">float</span><span class="p">(</span><span class="n">x</span> <span class="o">/</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="n">a</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span> <span class="o">=</span> <span class="n">calc</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'덧셈: </span><span class="si">{0}</span><span class="s1">, 뺄셈: </span><span class="si">{1}</span><span class="s1">, 곱셈: </span><span class="si">{2}</span><span class="s1">, 나눗셈: </span><span class="si">{3}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">d</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -15009,9 +14610,186 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>18
+<pre>덧셈: 30, 뺄셈: -10, 곱셈: 200, 나눗셈: 0.5
 </pre>
 </div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u30</span>
+<span class="n">korean</span><span class="p">,</span> <span class="n">english</span><span class="p">,</span> <span class="n">mathematics</span><span class="p">,</span> <span class="n">science</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+
+<span class="k">def</span> <span class="nf">get_min_max_score</span><span class="p">(</span><span class="o">*</span><span class="n">a</span><span class="p">):</span>
+     <span class="k">return</span> <span class="nb">min</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="nb">max</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">get_average</span><span class="p">(</span><span class="n">korean</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">english</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">mathematics</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">science</span> <span class="o">=</span> <span class="mi">0</span><span class="p">):</span>
+     <span class="n">w</span> <span class="o">=</span> <span class="p">[</span><span class="n">korean</span><span class="p">,</span> <span class="n">english</span><span class="p">,</span> <span class="n">mathematics</span><span class="p">,</span> <span class="n">science</span><span class="p">]</span>
+     <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">w</span><span class="p">:</span>
+          <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+               <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+     <span class="k">return</span> <span class="nb">float</span><span class="p">((</span><span class="n">korean</span> <span class="o">+</span> <span class="n">english</span> <span class="o">+</span> <span class="n">mathematics</span> <span class="o">+</span> <span class="n">science</span><span class="p">)</span> <span class="o">/</span> <span class="n">count</span><span class="p">)</span>
+
+<span class="n">min_score</span><span class="p">,</span> <span class="n">max_score</span> <span class="o">=</span> <span class="n">get_min_max_score</span><span class="p">(</span><span class="n">korean</span><span class="p">,</span> <span class="n">english</span><span class="p">,</span> <span class="n">mathematics</span><span class="p">,</span> <span class="n">science</span><span class="p">)</span>
+<span class="n">average_score</span> <span class="o">=</span> <span class="n">get_average</span><span class="p">(</span><span class="n">korean</span><span class="o">=</span><span class="n">korean</span><span class="p">,</span> <span class="n">english</span><span class="o">=</span><span class="n">english</span><span class="p">,</span>
+                            <span class="n">mathematics</span><span class="o">=</span><span class="n">mathematics</span><span class="p">,</span> <span class="n">science</span><span class="o">=</span><span class="n">science</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'낮은 점수: </span><span class="si">{0:.2f}</span><span class="s1">, 높은 점수: </span><span class="si">{1:.2f}</span><span class="s1">, 평균 점수: </span><span class="si">{2:.2f}</span><span class="s1">'</span>
+      <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">min_score</span><span class="p">,</span> <span class="n">max_score</span><span class="p">,</span> <span class="n">average_score</span><span class="p">))</span>
+ 
+<span class="n">min_score</span><span class="p">,</span> <span class="n">max_score</span> <span class="o">=</span> <span class="n">get_min_max_score</span><span class="p">(</span><span class="n">english</span><span class="p">,</span> <span class="n">science</span><span class="p">)</span>
+<span class="n">average_score</span> <span class="o">=</span> <span class="n">get_average</span><span class="p">(</span><span class="n">english</span><span class="o">=</span><span class="n">english</span><span class="p">,</span> <span class="n">science</span><span class="o">=</span><span class="n">science</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'낮은 점수: </span><span class="si">{0:.2f}</span><span class="s1">, 높은 점수: </span><span class="si">{1:.2f}</span><span class="s1">, 평균 점수: </span><span class="si">{2:.2f}</span><span class="s1">'</span>
+      <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">min_score</span><span class="p">,</span> <span class="n">max_score</span><span class="p">,</span> <span class="n">average_score</span><span class="p">))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>낮은 점수: 73.00, 높은 점수: 92.00, 평균 점수: 84.25
+낮은 점수: 83.00, 높은 점수: 92.00, 평균 점수: 87.50
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># u32</span>
+<span class="n">files</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s1">'</span><span class="si">{:03d}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">'.'</span><span class="p">)[</span><span class="mi">0</span><span class="p">]))</span><span class="o">+</span><span class="s1">'.'</span><span class="o">+</span> <span class="n">x</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">'.'</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>  <span class="p">,</span> <span class="n">files</span><span class="p">)))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>[&#39;001.jpg&#39;, &#39;010.png&#39;, &#39;011.png&#39;, &#39;002.jpg&#39;, &#39;003.png&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 디지털 시계 00:00 ~ 23:59 하루 중 3이 출력되는 시간은 몇 초인가?</span>
+
+<span class="k">def</span> <span class="nf">time</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+    <span class="n">hour</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="nb">min</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">str</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">hour</span><span class="p">)</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">min</span><span class="p">):</span>
+            <span class="n">count</span> <span class="o">+=</span> <span class="mi">60</span>
+    
+        <span class="nb">min</span> <span class="o">+=</span><span class="mi">1</span>
+        <span class="k">if</span> <span class="n">hour</span> <span class="o">==</span> <span class="mi">23</span> <span class="ow">and</span> <span class="nb">min</span> <span class="o">==</span> <span class="mi">60</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="k">if</span> <span class="nb">min</span> <span class="o">==</span> <span class="mi">60</span><span class="p">:</span>
+            <span class="nb">min</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">hour</span> <span class="o">+=</span> <span class="mi">1</span>
+    
+    <span class="k">return</span> <span class="n">count</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">time</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>29700</pre>
+</div>
+
 </div>
 
 </div>
